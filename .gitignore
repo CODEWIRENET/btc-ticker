@@ -1,0 +1,13 @@
+# Arduino / arduino-cli build output (arduino-cli builds out-of-tree by default)
+build/
+*.bin
+*.elf
+*.hex
+*.map
+
+# Local secrets (never commit WiFi/API credentials)
+secrets.h
+
+# OS
+Thumbs.db
+.DS_Store
